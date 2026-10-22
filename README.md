@@ -14,12 +14,12 @@ Analyse en Python du lien entre la couronne norvégienne et le prix du pétrole 
 
 ## Données
 
-Séries journalières publiques téléchargées sur [FRED](https://fred.stlouisfed.org/) (Federal Reserve Bank of St. Louis), dans le dossier [`data/`](data) :
+Séries journalières de la base [FRED](https://fred.stlouisfed.org/) (Federal Reserve Bank of St. Louis), dans le dossier [`data/`](data) :
 
-- `DEXNOUS.csv` : USD/NOK, nombre de couronnes pour 1 dollar (cours de midi à New York), du 03/01/2000 au 16/10/2026.
-- `DCOILBRENTEU.csv` : Brent spot en dollars par baril (source EIA), du 04/01/2000 au 14/10/2026.
+- [`DEXNOUS`](https://fred.stlouisfed.org/series/DEXNOUS) : USD/NOK, nombre de couronnes pour 1 dollar, cours de midi à New York (Board of Governors of the Federal Reserve System, H.10), du 03/01/2000 au 16/10/2026.
+- [`DCOILBRENTEU`](https://fred.stlouisfed.org/series/DCOILBRENTEU) : Brent spot Europe en dollars par baril (U.S. Energy Information Administration), du 04/01/2000 au 14/10/2026.
 
-Aucune valeur n'est interpolée : seuls les 6 326 jours cotés sur les deux séries sont conservés.
+Les jours sans cotation ne sont pas interpolés : l'analyse porte sur les 6 326 jours cotés sur les deux séries.
 
 ## Méthode
 
