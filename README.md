@@ -2,7 +2,7 @@
 
 Analyse en Python du lien entre la couronne norvégienne et le prix du pétrole (Brent), de 2000 à 2026 : corrélations, décalages, causalité de Granger, régression, comparaison avec les travaux de la Norges Bank, lecture des fondamentaux du pétrole et backtest d'une stratégie simple.
 
-**Auteur :** Kader, MSc Financial Markets, Trading & Risk Management (INSEEC)
+**Auteur :** Abdel Kader Elhassen
 
 ## Lire le projet
 
